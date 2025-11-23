@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Thomas Tawiah Baah | Materials Science & ML</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Thomas Tawiah Baah - Materials Science & Engineering graduate research assistant working on machine learning, sustainable materials design, and high-throughput experiments."
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    .social-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centers horizontally */
+      justify-content: center; /* Centers vertically */
+      height: 100%;
+      text-align: center;
+      padding: 2rem;
+      background: rgba(15, 23, 42, 0.6);
+      border-radius: 1rem;
+      border: 1px solid rgba(148, 163, 184, 0.2);
+    }
+    .linkedin-link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      text-decoration: none;
+      color: #e5e7eb;
+      font-weight: 600;
+      transition: transform 0.2s;
+    }
+    .linkedin-link:hover {
+      transform: scale(1.05);
+      color: #e85d2a; /* Your accent color */
+    }
+    .linkedin-logo {
+      width: 64px;
+      height: 64px;
+      border-radius: 8px;
+    }
+    /* Style for publication links */
+    .pub-link {
+      display: inline-block;
+      margin-top: 0.25rem;
+      font-size: 0.85rem;
+      color: #e85d2a;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .pub-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="brand">
+        <span class="brand-mark">TB</span>
+        <div class="brand-text">
+          <span class="brand-name">Thomas Tawiah Baah</span>
+          <span class="brand-role">Materials Science & ML Researcher</span>
+        </div>
+      </div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#conferences">Conferences</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#awards">Awards</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="section" id="about">
+    <div class="container section-grid">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <p class="section-kicker">Background & research focus</p>
+        <div class="about-img-container">
+          <img src="images/Thomas_pro1.jpeg" alt="Thomas working in lab" class="about-img" />
+        </div>
+      </div>
+      <div class="section-content">
+        <p>
+          I am currently a graduate research assistant in the Department of Materials Science & Engineering
+          at the University of Arizona, where I work at the intersection of
+          <strong>machine learning</strong>, <strong>sustainable materials design</strong>,
+          and <strong>experimental optimization</strong>.
+        </p>
+        <p>
+          My current research focuses on designing <strong>sustainable mortar and concrete mixtures</strong>
+          incorporating construction and demolition waste (CDW), and on enabling
+          <strong>high-throughput discovery of recycled aluminum alloys</strong>. I combine
+          laboratory experiments with methods such as <strong>Bayesian optimization</strong>,
+          <strong>adaptive experimental design</strong>, and <strong>density functional theory (DFT)</strong>
+          to rapidly explore complex materials design spaces.
+        </p>
+        <p>
+          I am passionate about leveraging data-driven approaches to accelerate the development of
+          sustainable materials that can address global challenges in construction and manufacturing.
+        <div class="about-tags">
+          <span class="tag">Sustainable Concrete & Mortar</span>
+          <span class="tag">Recycled Aluminum Alloys</span>
+          <span class="tag">Machine Learning for Materials</span>
+          <span class="tag">Bayesian Optimization</span>
+          <span class="tag">DFT & Computational Materials</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="research">
+    <div class="container">
+      <div class="section-header">
+        <h2>Research</h2>
+        <p class="section-kicker">Selected research directions</p>
+      </div>
+
+      <div class="cards-grid small">
+        
+        <article class="card compact">
+          <h3>Sustainable Concrete Design</h3>
+          <p class="card-meta">DoE, 3D Printing, Optimization</p>
+          <div class="card-gallery">
+            <img src="images/BO_schematic diagram_updated.png" alt="Concrete Mix">
+            <img src="images/oppplot.png" alt="Testing">
+            <img src="images/flow_diagram_3DP.png" alt="Data Plot">
+            <img src="images/compressive_strength_revised.png" alt="Result">
+          </div>
+          <p class="card-subtitle" style="margin-top: 1rem;">
+            Accelerating design of sustainable mortar with construction and demolition waste (CDW).
+          </p>
+        </article>
+
+        <article class="card compact">
+          <h3>Recycled Al Alloys</h3>
+          <p class="card-meta">SEM, EDS, EBSD, Thermocalc</p>
+          <div class="card-gallery">
+            <img src="images/KIKU.jpeg" alt="Microstructure">
+            <img src="images/analysis BSE.png" alt="SEM Image">
+            <img src="images/EBSD.png" alt="DFT Calc">
+            <img src="images/BSE.jpeg" alt="Phase Diagram">
+          </div>
+          <p class="card-subtitle" style="margin-top: 1rem;">
+            High-throughput discovery of sustainable aluminum alloys from recycled scrap.
+          </p>
+        </article>
+
+        <article class="card compact">
+          <h3>ML and Atomistic Simulation</h3>
+          <p class="card-meta">CGCNN, DFT, LAMMPS</p>
+          <div class="card-gallery">
+            <img src="images/MOF-5.png" alt="Model Arch">
+            <img src="images/atomistic.png" alt="MOF Structure">
+            <img src="images/rnx path.png" alt="Python Code">
+            <img src="images/mofs_dft.jpg" alt="Accuracy Plot">
+          </div>
+          <p class="card-subtitle" style="margin-top: 1rem;">
+            Deep learning and kernel methods for catalyst screening and MOF discovery.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="conferences">
+    <div class="container">
+      <div class="section-header">
+        <h2>Conference & Presentations</h2>
+        <p class="section-kicker">Talks, Posters & Workshops</p>
+      </div>
+
+      <div class="conf-slider">
+        
+        <div class="conf-slide">
+          <div class="conf-collage">
+            <img src="images/icms group.jpeg" alt="Poster">
+            <img src="images/icms tag.jpeg" alt="Discussion">
+            <img src="images/bayes center.jpeg" alt="Data">
+            <img src="images/momu.jpeg" alt="Venue">
+          </div>
+          <div class="conf-content">
+            <div class="conf-text-wrapper">
+              <h3 style="text-transform: none;">CoMPASs 2025</h3>
+              <p class="conf-meta">Poster Session · Edinburgh, UK</p>
+              <p class="conf-desc">
+                "International Centre for Mathematical Sciences "<br>
+                CoMPASs: computational materials science and mathematics at the particle and atomistic scales workshop.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="conf-slide active">
+          <div class="conf-collage">
+            <img src="images/aci friends.jpeg" alt="Presentation">
+            <img src="images/aci thomas.jpeg" alt="Crowd">
+            <img src="images/aci group.jpeg" alt="Slides">
+            <img src="images/aci tag.jpeg" alt="Networking">
+          </div>
+          <div class="conf-content">
+            <div class="conf-text-wrapper">
+              <h3>American Concrete Institute Convention 2024</h3>
+              <p class="conf-meta">Speaker · Philadelpha, PA</p>
+              <p class="conf-desc">
+                "Adaptive Experimental Design for Sustainable Concrete Mixtures."<br>
+                Presented our novel framework for accelerating mix optimization using machine learning.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="conf-slide">
+          <div class="conf-collage">
+            <img src="images/thomas_pro2.JPG" alt="Workshop">
+            <img src="images/Wikicon group2.jpg" alt="Students">
+            <img src="images/wikicon_group.jpg" alt="Code">
+            <img src="images/wiki3.jpg" alt="Lab">
+          </div>
+          <div class="conf-content">
+            <div class="conf-text-wrapper">
+              <h3>2025 Wiki Conference North America</h3>
+              <p class="conf-meta">AfroCrowd · New York</p>
+              <p class="conf-desc">
+                 Explored how open knowledge, data transparency, and collaborative tools can advance research in machine learning and sustainable systems.
+              </p>
+            </div>
+          </div>
+        </div>
+
+         <div class="conf-slide">
+          <div class="conf-collage">
+            <img src="images/princeton summer.jpeg" alt="Workshop">
+            <img src="images/me and einst.jpeg" alt="Code">
+            <img src="images/ein'shouse.jpeg" alt="Lab">
+            <img src="images/prin class2.jpeg" alt="Lab">
+          </div>
+          <div class="conf-content">
+            <div class="conf-text-wrapper">
+              <h3>Institute for Research and Innovation in Software for High Energy Physics (IRIS-HEP)</h3>
+              <p class="conf-meta">Summer School 2025 · Princeton University</p>
+              <p class="conf-desc">
+                Participated in the IRIS-HEP workshop, exploring cutting-edge software, data workflows, and machine learning methods used in high-energy physics and other data-driven sustainable technologies.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="publications">
+    <div class="container">
+      <div class="section-header">
+        <h2>Publications</h2>
+        <p class="section-kicker">Peer-reviewed articles & manuscripts</p>
+      </div>
+
+      <ol class="pub-list">
+        <li>
+          Baah, T.T., Zeng, H., Latypov, M.I. and Kim, H.J., 2025.
+          <strong>Design of sustainable mortar incorporating construction and demolition waste through adaptive
+          experiments accelerated by machine learning.</strong>
+          <em>Results in Engineering</em>, 25, 104264.
+          <br>
+          <a href="https://doi.org/10.1016/j.rineng.2025.104264" class="pub-link" target="_blank">Link to Article</a>
+        </li>
+        <li>
+          Zeng, H., Ellersick, L. F., Baah, T. T., Xian, X., &amp; Kim, H., 2025.
+          <strong>Carbonation curing for recycling and property enhancement of copper slag-based blended mortar.</strong>
+          <em>Journal of CO<sub>2</sub> Utilization</em>, 97, 103130.
+          <br>
+          <a href="https://doi.org/10.1016/j.jcou.2025.103130" class="pub-link" target="_blank">Link to Article</a>
+        </li>
+        <li>
+          Baah, T.T., Kim, H.J. and Latypov, M., 2025.
+          <strong>Multi-Objective Adaptive Experimental Approach for Optimizing 3D Concrete Printing Mixtures and
+          Parameters Incorporating Construction and Demolition Waste for Sustainable Construction.</strong>
+          <em>Discover Concrete and Cement</em>.
+          <br>
+          <a href="https://link.springer.com/article/10.1007/s44416-025-00033-5" class="pub-link" target="_blank">Link to Article</a>
+        </li>
+        <li>
+          Baah, T.T., M. Balkan, K. Carruthers, S.E. Jung, Kim, H.J., 2025.
+          <strong>Integrating Waste Valorization into Engineering Education: Experiential Learning with Powdered
+          Banana Peel as a Sustainable Cementitious Material.</strong>
+          <em>Next Materials</em> (Under Review).
+          <br>
+          <a href="#" class="pub-link" target="_blank">Link to Article</a>
+        </li>
+        <li>
+          Baah, T.T., M. Latypov.
+          <strong>Experimental Validation of Intermetallic Phase Formation in Recycled Al-Si-Mg Wrought Alloys:
+          A Thermocalc-Based Comparison.</strong>
+          <em>Journal of Alloys and Compounds</em> (In preparation).
+        </li>
+      </ol>
+
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header center-text">
+        <h2>Experience</h2>
+        <p class="section-kicker">Research & Industry</p>
+      </div>
+
+      <div class="logo-grid">
+        
+        <div class="logo-item">
+           <img src="images/uoa logo.png" class="logo-img" alt="University of Arizona">
+           <span class="logo-caption">Graduate Teaching Assistant</span>
+        </div>
+
+        <div class="logo-item">
+           <img src="images/nissan.png" class="logo-img" alt="Nissan">
+           <span class="logo-caption">Engineering Intern</span>
+        </div>
+
+        <div class="logo-item">
+           <img src="images/MIL.png" class="logo-img" alt="MIL">
+           <span class="logo-caption">Graduate Research Assistant</span>
+        </div>
+
+        <div class="logo-item">
+           <img src="images/cocopo.png" class="logo-img" alt="Cocoa Potash">
+           <span class="logo-caption">Co-Founder</span>
+        </div>
+
+        <div class="logo-item">
+           <img src="images/china henan.png" class="logo-img" alt="CHICO">
+           <span class="logo-caption">Materials Lab Intern</span>
+        </div>
+
+
+        <div class="logo-item">
+           <img src="images/Iris-hep.png" class="logo-img" alt="Wikimedia">
+           <span class="logo-caption">Summer School (Princeton University)</span>
+        </div>
+
+
+        <div class="logo-item">
+           <img src="images/knust-nsbe-700by-700.png.webp" class="logo-img" alt="NSBE">
+           <span class="logo-caption">Leadership</span>
+        </div>
+
+        <div class="logo-item">
+           <img src="images/OFWA_New_Logo.png" class="logo-img" alt="OFWA">
+           <span class="logo-caption">Leadership</span>
+        </div>
+
+        <div class="logo-item">
+           <img src="images/ICMS-logo.png" class="logo-img" alt="ICMS">
+           <span class="logo-caption">Workshop (University of Edinburgh)</span>
+        </div>
+
+        <div class="logo-item">
+           <img src="images/M2DLABD.png" class="logo-img" alt="M2DLAB">
+           <span class="logo-caption">Graduate Research Assistant</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="awards">
+    <div class="container">
+      <div class="section-header">
+        <h2>Awards & Scholarships</h2>
+        <p class="section-kicker">Recognition & competitive grants</p>
+      </div>
+
+      <div class="cards-grid small">
+        <article class="card compact">
+          <h3>MIT FWA Innovation Prize</h3>
+          <p class="card-meta">Massachusetts Institute of Technology · 2025</p>
+          <p class="card-subtitle">
+            Awarded <strong>$20,000</strong> as part of a team for developing <em>Cocoa Potash</em> sustainable solution.
+          </p>
+          <img src="images/MITWFA.jpg" class="award-img" alt="MIT Prize">
+        </article>
+
+        <article class="card compact">
+          <h3>Sulzer Mines Scholarship</h3>
+          <p class="card-meta">University of Arizona · 2024</p>
+          <p class="card-subtitle">
+            Selected among graduate engineering students for outstanding academic performance.
+          </p>
+          <img src="images/uoa logo.png" class="award-img" alt="Scholarship">
+        </article>
+
+        <article class="card compact">
+          <h3>Wiki in Africa Grant</h3>
+          <p class="card-meta">KNUST · 2022</p>
+          <p class="card-subtitle">
+            Received funding to organize conferences and train participants on using Wikipedia.
+          </p>
+          <img src="images/wiki in africa.png" class="award-img" alt="Wikimedia">
+        </article>
+
+        <article class="card compact">
+          <h3>RAIL ML/AI Research Grant</h3>
+          <p class="card-meta">Responsible AI Lab </p>
+          <p class="card-subtitle">
+            Supported participation in the 1st RAIL Innovation Challenge in Ghana.
+          </p>
+          <img src="images/RAIL.jpg" class="award-img" alt="RAIL Grant">
+        </article>
+
+        <article class="card compact">
+          <h3>Tuition Scholarship</h3> 
+          <p class="card-meta">Gracestation Scholarship - KNUST</p>
+          <p class="card-subtitle">
+            Fully funded undergraduate studies in Materials Science and Engineering.
+          </p>
+          <img src="images/gracelogo.png" class="award-img" alt="Scholarship">
+        </article>
+
+        <article class="card compact">
+          <h3>Travel Grant</h3> 
+          <p class="card-meta">GPSC - University</p>
+          <p class="card-subtitle">
+            Funded travel to present research at CoMPASs: computational materials science and mathematics at the particle and atomistic scales 2025.
+          </p>
+          <img src="images/GPSCLOG.png" class="award-img" alt="Scholarship">
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="leadership">
+    <div class="container">
+      <div class="section-header">
+        <h2>Leadership & Outreach</h2>
+        <p class="section-kicker">Community, mentoring & open knowledge</p>
+      </div>
+
+      <div class="cards-grid small">
+        <article class="card compact">
+          <h3>President, Open Foundation West Africa – KNUST</h3>
+          <p class="card-meta">2022 – 2023</p>
+          <p class="card-subtitle">
+            Organized monthly workshops training members to contribute to open-source platforms.
+          </p>
+        </article>
+
+        <article class="card compact">
+          <h3>Programs Development Chair, NSBE – KNUST</h3>
+          <p class="card-meta">2020 – 2021</p>
+          <p class="card-subtitle">
+            Mentored students and organized skills training sessions on MATLAB.
+          </p>
+        </article>
+
+        <article class="card compact">
+          <h3>President, Nectar of Hope for Children's Foundation – KNUST</h3>
+          <p class="card-meta">2019 – 2022</p>
+          <p class="card-subtitle">
+            Led a student organization focused on community service and educational outreach.
+          </p>
+        </article>
+
+        <article class="card compact">
+          <h3>Co-Founder, Materials Innovation Hub</h3>
+          <p class="card-meta">KNUST · 2021</p>
+          <p class="card-subtitle">
+            Co-founded a student-led initiative to equip students with research experience.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="contact">
+    <div class="container section-grid">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p class="section-kicker">Let’s collaborate</p>
+      </div>
+      <div class="section-content">
+        <div class="contact-grid">
+          <div>
+            <p>
+              I am open to opportunities in research, industry collaborations, and interdisciplinary projects.
+            </p>
+            <ul class="contact-list">
+              <li><strong>Email:</strong> <a href="mailto:ttbaah@arizona.edu">ttbaah@arizona.edu</a></li>
+              <li><strong>Location:</strong> Tucson, Arizona, USA</li>
+            </ul>
+          </div>
+
+          <div class="social-box">
+             <a href="https://www.linkedin.com/in/thomas-tawiah-baah" target="_blank" class="linkedin-link">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Profile" class="linkedin-logo">
+                <span>Connect on LinkedIn</span>
+             </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <span>© <span id="year"></span> Thomas Tawiah Baah</span>
+      <span>Materials Science & Engineering · University of Arizona</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
